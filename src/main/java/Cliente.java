@@ -11,7 +11,7 @@ public class Cliente {
     public Cliente(){
         this.cuit = 0;
         this.name = "";
-        this.ingreso = new Date(2000, 1, 1);
+        this.ingreso = new Date();
         this.actividad = new Activo();
     }
 
@@ -35,6 +35,9 @@ public class Cliente {
 
     public void activar(){
         this.actividad = new Activo();
+    }
+
+    public void desactivar(){
         this.actividad = new Inactivo();
     }
 }

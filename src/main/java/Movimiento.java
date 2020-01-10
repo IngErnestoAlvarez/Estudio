@@ -8,7 +8,7 @@ public class Movimiento {
     private String Detalle;
 
     public Movimiento(){
-        this.fecha = new Date(2000, 1, 1);
+        this.fecha = new Date();
         this.proceso = new Proceso();
         this.forma = new Forma();
         this.importe = 0;
