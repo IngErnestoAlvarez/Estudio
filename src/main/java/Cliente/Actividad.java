@@ -1,3 +1,5 @@
+package Cliente;
+
 public interface Actividad {
 
 

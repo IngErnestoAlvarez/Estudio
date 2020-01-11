@@ -1,3 +1,7 @@
+package Cliente;
+
+import CuentaCorriente.CuentaCorriente;
+
 import java.util.Date;
 
 public class Cliente {
@@ -19,6 +23,8 @@ public class Cliente {
         this.cuit = i;
         this.name = s;
         this.ingreso = in;
+        this.actividad = new Activo();
+        this.cuenta = new CuentaCorriente();
     }
 
     public void setCuit(int cuit) {
